@@ -1,0 +1,5901 @@
+{
+  "district": "Anuradhapura",
+  "source": "component-3-safe-roads/road_edges.geojson",
+  "sim_centroid_epsg5234": [
+    226213.24560564233,
+    299519.90061521606
+  ],
+  "path_buffer_m": 2200,
+  "corridor_links": 5,
+  "backbone_hops": 3,
+  "edge_count": 209,
+  "node_count": 292,
+  "roads": [
+    {
+      "node_id": "44570_59728",
+      "name": "Junction 44570_59728",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.98095730541475,
+          7.892761804055003
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44648_59736",
+          "distance": 392.0,
+          "road_name": "Potgul Mawatha"
+        }
+      ]
+    },
+    {
+      "node_id": "44572_59658",
+      "name": "Junction 44572_59658",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.9810464057664,
+          7.889596799220903
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44620_59702",
+          "distance": 383.0,
+          "road_name": "unclassified"
+        }
+      ]
+    },
+    {
+      "node_id": "44601_59607",
+      "name": "Junction 44601_59607",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.98236027050214,
+          7.887290240444359
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44671_59629",
+          "distance": 383.0,
+          "road_name": "unclassified"
+        }
+      ]
+    },
+    {
+      "node_id": "44609_59720",
+      "name": "Junction 44609_59720",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.98272562619486,
+          7.892399206449482
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44687_59734",
+          "distance": 399.3,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "44620_59702",
+      "name": "Junction 44620_59702",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.98322402089272,
+          7.891585108067658
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44572_59658",
+          "distance": 383.0,
+          "road_name": "unclassified"
+        },
+        {
+          "target_node": "44691_59687",
+          "distance": 383.0,
+          "road_name": "unclassified"
+        }
+      ]
+    },
+    {
+      "node_id": "44644_59617",
+      "name": "Junction 44644_59617",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.98431036485466,
+          7.887741392122896
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44664_59550",
+          "distance": 353.1,
+          "road_name": "unclassified"
+        }
+      ]
+    },
+    {
+      "node_id": "44648_59736",
+      "name": "Junction 44648_59736",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.98449449868077,
+          7.8931217300960475
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44717_59765",
+          "distance": 392.0,
+          "road_name": "Potgul Mawatha"
+        },
+        {
+          "target_node": "44570_59728",
+          "distance": 392.0,
+          "road_name": "Potgul Mawatha"
+        }
+      ]
+    },
+    {
+      "node_id": "44664_59550",
+      "name": "Junction 44664_59550",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.98521572568579,
+          7.884711612435714
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44644_59617",
+          "distance": 353.1,
+          "road_name": "unclassified"
+        }
+      ]
+    },
+    {
+      "node_id": "44671_59629",
+      "name": "Junction 44671_59629",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.98553497760946,
+          7.888283333129715
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44691_59687",
+          "distance": 383.0,
+          "road_name": "unclassified"
+        },
+        {
+          "target_node": "44601_59607",
+          "distance": 383.0,
+          "road_name": "unclassified"
+        }
+      ]
+    },
+    {
+      "node_id": "44675_59721",
+      "name": "Junction 44675_59721",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.98571849970045,
+          7.892442900391253
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44676_59700",
+          "distance": 113.1,
+          "road_name": "unclassified"
+        }
+      ]
+    },
+    {
+      "node_id": "44676_59700",
+      "name": "Junction 44676_59700",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.98576335745216,
+          7.891493389683458
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44675_59721",
+          "distance": 113.1,
+          "road_name": "unclassified"
+        }
+      ]
+    },
+    {
+      "node_id": "44683_59732",
+      "name": "Junction 44683_59732",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.98608152569253,
+          7.892940065300217
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44691_59724",
+          "distance": 60.8,
+          "road_name": "unclassified"
+        }
+      ]
+    },
+    {
+      "node_id": "44687_59734",
+      "name": "Junction 44687_59734",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.98626295740411,
+          7.893030399717838
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44609_59720",
+          "distance": 399.3,
+          "road_name": "residential"
+        },
+        {
+          "target_node": "44760_59764",
+          "distance": 399.3,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "44691_59687",
+      "name": "Junction 44691_59687",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.98644324581386,
+          7.890905263286112
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44620_59702",
+          "distance": 383.0,
+          "road_name": "unclassified"
+        },
+        {
+          "target_node": "44671_59629",
+          "distance": 383.0,
+          "road_name": "unclassified"
+        }
+      ]
+    },
+    {
+      "node_id": "44691_59724",
+      "name": "Junction 44691_59724",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.9864441091511,
+          7.892578169806227
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44683_59732",
+          "distance": 60.8,
+          "road_name": "unclassified"
+        }
+      ]
+    },
+    {
+      "node_id": "44704_59665",
+      "name": "Junction 44704_59665",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.98703222975254,
+          7.889910259255766
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44747_59618",
+          "distance": 339.2,
+          "road_name": "unclassified"
+        }
+      ]
+    },
+    {
+      "node_id": "44717_59765",
+      "name": "Junction 44717_59765",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.98762407320072,
+          7.894431324161493
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44787_59800",
+          "distance": 392.0,
+          "road_name": "Potgul Mawatha"
+        },
+        {
+          "target_node": "44648_59736",
+          "distance": 392.0,
+          "road_name": "Potgul Mawatha"
+        }
+      ]
+    },
+    {
+      "node_id": "44735_59754",
+      "name": "Junction 44735_59754",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.98844004973533,
+          7.893933551682065
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44751_59747",
+          "distance": 92.5,
+          "road_name": "unclassified"
+        }
+      ]
+    },
+    {
+      "node_id": "44747_59618",
+      "name": "Junction 44747_59618",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.98898099566877,
+          7.887784208442464
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44704_59665",
+          "distance": 339.2,
+          "road_name": "unclassified"
+        },
+        {
+          "target_node": "44815_59614",
+          "distance": 339.2,
+          "road_name": "unclassified"
+        }
+      ]
+    },
+    {
+      "node_id": "44751_59747",
+      "name": "Junction 44751_59747",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.98916542620019,
+          7.893616679503618
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44735_59754",
+          "distance": 92.5,
+          "road_name": "unclassified"
+        }
+      ]
+    },
+    {
+      "node_id": "44760_59764",
+      "name": "Junction 44760_59764",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.98957394576686,
+          7.894385099695883
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44687_59734",
+          "distance": 399.3,
+          "road_name": "residential"
+        },
+        {
+          "target_node": "44823_59812",
+          "distance": 399.3,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "44768_59642",
+      "name": "Junction 44768_59642",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.98993382416968,
+          7.888868841741002
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44783_59616",
+          "distance": 186.1,
+          "road_name": "unclassified"
+        }
+      ]
+    },
+    {
+      "node_id": "44781_59640",
+      "name": "Junction 44781_59640",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99052327220666,
+          7.888778106704992
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44792_59641",
+          "distance": 58.2,
+          "road_name": "unclassified"
+        }
+      ]
+    },
+    {
+      "node_id": "44783_59616",
+      "name": "Junction 44783_59616",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99061339319084,
+          7.8876929308638175
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44768_59642",
+          "distance": 186.1,
+          "road_name": "unclassified"
+        }
+      ]
+    },
+    {
+      "node_id": "44787_59800",
+      "name": "Junction 44787_59800",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99079915637985,
+          7.896012152462669
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44854_59840",
+          "distance": 392.0,
+          "road_name": "Potgul Mawatha"
+        },
+        {
+          "target_node": "44717_59765",
+          "distance": 392.0,
+          "road_name": "Potgul Mawatha"
+        }
+      ]
+    },
+    {
+      "node_id": "44792_59641",
+      "name": "Junction 44792_59641",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99102209984778,
+          7.888823059407203
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44781_59640",
+          "distance": 58.2,
+          "road_name": "unclassified"
+        }
+      ]
+    },
+    {
+      "node_id": "44799_59795",
+      "name": "Junction 44799_59795",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99134319605825,
+          7.89578579877937
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44818_59819",
+          "distance": 156.3,
+          "road_name": "unclassified"
+        }
+      ]
+    },
+    {
+      "node_id": "44809_59743",
+      "name": "Junction 44809_59743",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.9917954176492,
+          7.893434449746045
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44856_59748",
+          "distance": 246.3,
+          "road_name": "unclassified"
+        }
+      ]
+    },
+    {
+      "node_id": "44815_59614",
+      "name": "Junction 44815_59614",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99206440714454,
+          7.887601742427312
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44747_59618",
+          "distance": 339.2,
+          "road_name": "unclassified"
+        }
+      ]
+    },
+    {
+      "node_id": "44818_59819",
+      "name": "Junction 44818_59819",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99220535611055,
+          7.896870473434169
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44799_59795",
+          "distance": 156.3,
+          "road_name": "unclassified"
+        }
+      ]
+    },
+    {
+      "node_id": "44823_59812",
+      "name": "Junction 44823_59812",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99243192150975,
+          7.896553858221444
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44760_59764",
+          "distance": 399.3,
+          "road_name": "residential"
+        },
+        {
+          "target_node": "44889_59854",
+          "distance": 399.3,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "44826_60357",
+      "name": "Junction 44826_60357",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99258106999864,
+          7.921195217040917
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44869_60366",
+          "distance": 310.7,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "44832_59691",
+      "name": "Junction 44832_59691",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99283713309978,
+          7.8910827890879425
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44846_59667",
+          "distance": 200.3,
+          "road_name": "unclassified"
+        }
+      ]
+    },
+    {
+      "node_id": "44846_59667",
+      "name": "Junction 44846_59667",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99347139949589,
+          7.889997325116915
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44885_59662",
+          "distance": 200.3,
+          "road_name": "unclassified"
+        },
+        {
+          "target_node": "44832_59691",
+          "distance": 200.3,
+          "road_name": "unclassified"
+        }
+      ]
+    },
+    {
+      "node_id": "44854_59840",
+      "name": "Junction 44854_59840",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99383834371753,
+          7.897819096429778
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44911_59893",
+          "distance": 392.0,
+          "road_name": "Potgul Mawatha"
+        },
+        {
+          "target_node": "44787_59800",
+          "distance": 392.0,
+          "road_name": "Potgul Mawatha"
+        }
+      ]
+    },
+    {
+      "node_id": "44856_59748",
+      "name": "Junction 44856_59748",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99392681463749,
+          7.893659391674611
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44900_59728",
+          "distance": 246.3,
+          "road_name": "unclassified"
+        },
+        {
+          "target_node": "44809_59743",
+          "distance": 246.3,
+          "road_name": "unclassified"
+        }
+      ]
+    },
+    {
+      "node_id": "44867_60373",
+      "name": "Junction 44867_60373",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99444078134162,
+          7.921917645734073
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44914_60371",
+          "distance": 236.6,
+          "road_name": "secondary"
+        }
+      ]
+    },
+    {
+      "node_id": "44868_60269",
+      "name": "Junction 44868_60269",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.9944836042099,
+          7.917215406571791
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44902_60278",
+          "distance": 180.5,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "44869_60366",
+      "name": "Junction 44869_60366",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99453131001951,
+          7.921601102075578
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44826_60357",
+          "distance": 310.7,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "44873_60355",
+      "name": "Junction 44873_60355",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.9947124399482,
+          7.921103655500567
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44901_60286",
+          "distance": 369.3,
+          "road_name": "Potgul Mawatha"
+        }
+      ]
+    },
+    {
+      "node_id": "44885_59662",
+      "name": "Junction 44885_59662",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99523976909643,
+          7.8897703162103685
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44846_59667",
+          "distance": 200.3,
+          "road_name": "unclassified"
+        }
+      ]
+    },
+    {
+      "node_id": "44889_59854",
+      "name": "Junction 44889_59854",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99542582146603,
+          7.898451241528261
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44823_59812",
+          "distance": 399.3,
+          "road_name": "residential"
+        },
+        {
+          "target_node": "44935_59917",
+          "distance": 399.3,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "44896_59682",
+      "name": "Junction 44896_59682",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99573906071939,
+          7.890674322872861
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44920_59729",
+          "distance": 331.3,
+          "road_name": "unclassified"
+        },
+        {
+          "target_node": "44900_59621",
+          "distance": 331.3,
+          "road_name": "unclassified"
+        }
+      ]
+    },
+    {
+      "node_id": "44900_59621",
+      "name": "Junction 44900_59621",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99591895900645,
+          7.887916192119797
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44896_59682",
+          "distance": 331.3,
+          "road_name": "unclassified"
+        },
+        {
+          "target_node": "44910_59557",
+          "distance": 331.3,
+          "road_name": "unclassified"
+        }
+      ]
+    },
+    {
+      "node_id": "44900_59728",
+      "name": "Junction 44900_59728",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99592156539677,
+          7.892754054161024
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44856_59748",
+          "distance": 246.3,
+          "road_name": "unclassified"
+        }
+      ]
+    },
+    {
+      "node_id": "44901_60286",
+      "name": "Junction 44901_60286",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99598053329483,
+          7.9179832361149165
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44873_60355",
+          "distance": 369.3,
+          "road_name": "Potgul Mawatha"
+        },
+        {
+          "target_node": "44904_60245",
+          "distance": 208.7,
+          "road_name": "Potgul Mawatha"
+        },
+        {
+          "target_node": "44915_60280",
+          "distance": 76.5,
+          "road_name": "tertiary"
+        }
+      ]
+    },
+    {
+      "node_id": "44902_60278",
+      "name": "Junction 44902_60278",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99602568661871,
+          7.917621502899988
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44868_60269",
+          "distance": 180.5,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "44902_60282",
+      "name": "Junction 44902_60282",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99602578444225,
+          7.9178023573175915
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44905_60285",
+          "distance": 20.5,
+          "road_name": "tertiary"
+        }
+      ]
+    },
+    {
+      "node_id": "44904_60245",
+      "name": "Junction 44904_60245",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.9961155772032,
+          7.9161294051291105
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44901_60286",
+          "distance": 208.7,
+          "road_name": "Potgul Mawatha"
+        },
+        {
+          "target_node": "44924_60220",
+          "distance": 208.7,
+          "road_name": "Potgul Mawatha"
+        }
+      ]
+    },
+    {
+      "node_id": "44905_60285",
+      "name": "Junction 44905_60285",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99616190471555,
+          7.917937924956745
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44902_60282",
+          "distance": 20.5,
+          "road_name": "tertiary"
+        }
+      ]
+    },
+    {
+      "node_id": "44910_59557",
+      "name": "Junction 44910_59557",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99637085459358,
+          7.885022274136172
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44900_59621",
+          "distance": 331.3,
+          "road_name": "unclassified"
+        }
+      ]
+    },
+    {
+      "node_id": "44911_59893",
+      "name": "Junction 44911_59893",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99642440517886,
+          7.900214038716162
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44933_59966",
+          "distance": 392.0,
+          "road_name": "Potgul Mawatha"
+        },
+        {
+          "target_node": "44854_59840",
+          "distance": 392.0,
+          "road_name": "Potgul Mawatha"
+        }
+      ]
+    },
+    {
+      "node_id": "44914_60318",
+      "name": "Junction 44914_60318",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99657085452468,
+          7.919429753991293
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44955_60285",
+          "distance": 360.9,
+          "road_name": "School Lane"
+        }
+      ]
+    },
+    {
+      "node_id": "44914_60347",
+      "name": "Junction 44914_60347",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99657156568584,
+          7.920740948320543
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44914_60414",
+          "distance": 336.0,
+          "road_name": "New Town Road"
+        },
+        {
+          "target_node": "44915_60280",
+          "distance": 336.0,
+          "road_name": "New Town Road"
+        }
+      ]
+    },
+    {
+      "node_id": "44914_60361",
+      "name": "Junction 44914_60361",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.9965719090485,
+          7.921373938656873
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44941_60318",
+          "distance": 315.2,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "44914_60371",
+      "name": "Junction 44914_60371",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99657215432487,
+          7.921826074599623
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44867_60373",
+          "distance": 236.6,
+          "road_name": "secondary"
+        }
+      ]
+    },
+    {
+      "node_id": "44914_60375",
+      "name": "Junction 44914_60375",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99657225243948,
+          7.9220069289739765
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44972_60391",
+          "distance": 318.8,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "44914_60403",
+      "name": "Junction 44914_60403",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99657293930636,
+          7.923272909550531
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44935_60403",
+          "distance": 106.5,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "44914_60414",
+      "name": "Junction 44914_60414",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99657320917792,
+          7.923770259041699
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44914_60347",
+          "distance": 336.0,
+          "road_name": "New Town Road"
+        }
+      ]
+    },
+    {
+      "node_id": "44915_60280",
+      "name": "Junction 44915_60280",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99661527178398,
+          7.917711612714666
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44933_60224",
+          "distance": 303.4,
+          "road_name": "New Town Road"
+        },
+        {
+          "target_node": "44901_60286",
+          "distance": 76.5,
+          "road_name": "tertiary"
+        },
+        {
+          "target_node": "44914_60347",
+          "distance": 336.0,
+          "road_name": "New Town Road"
+        }
+      ]
+    },
+    {
+      "node_id": "44916_60271",
+      "name": "Junction 44916_60271",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.9966604000055,
+          7.917304665839425
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44955_60271",
+          "distance": 193.7,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "44920_59729",
+      "name": "Junction 44920_59729",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.9968285142158,
+          7.892798780928762
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44957_59780",
+          "distance": 333.7,
+          "road_name": "residential"
+        },
+        {
+          "target_node": "44941_59671",
+          "distance": 327.2,
+          "road_name": "unclassified"
+        },
+        {
+          "target_node": "44896_59682",
+          "distance": 331.3,
+          "road_name": "unclassified"
+        }
+      ]
+    },
+    {
+      "node_id": "44923_60236",
+      "name": "Junction 44923_60236",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99697698282544,
+          7.9157220184230335
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44960_60180",
+          "distance": 356.9,
+          "road_name": "Potgul Mawatha"
+        }
+      ]
+    },
+    {
+      "node_id": "44924_60220",
+      "name": "Junction 44924_60220",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99702193863432,
+          7.914998576238145
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44904_60245",
+          "distance": 208.7,
+          "road_name": "Potgul Mawatha"
+        }
+      ]
+    },
+    {
+      "node_id": "44929_60318",
+      "name": "Junction 44929_60318",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.9972510914539,
+          7.919429386725201
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44940_60347",
+          "distance": 168.7,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "44931_60358",
+      "name": "Junction 44931_60358",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.9973427740155,
+          7.921237881457154
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44953_60365",
+          "distance": 132.6,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "44933_59960",
+      "name": "Junction 44933_59960",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99742368520621,
+          7.903242814848882
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44941_59946",
+          "distance": 78.9,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "44933_59966",
+      "name": "Junction 44933_59966",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99742383258534,
+          7.903514096635267
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44937_60043",
+          "distance": 392.0,
+          "road_name": "Potgul Mawatha"
+        },
+        {
+          "target_node": "44911_59893",
+          "distance": 392.0,
+          "road_name": "Potgul Mawatha"
+        }
+      ]
+    },
+    {
+      "node_id": "44933_60224",
+      "name": "Junction 44933_60224",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99743017482533,
+          7.915179210115681
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44915_60280",
+          "distance": 303.4,
+          "road_name": "New Town Road"
+        },
+        {
+          "target_node": "44990_60214",
+          "distance": 303.4,
+          "road_name": "New Town Road"
+        }
+      ]
+    },
+    {
+      "node_id": "44935_59917",
+      "name": "Junction 44935_59917",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99751332343423,
+          7.9012985796317645
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44889_59854",
+          "distance": 399.3,
+          "road_name": "residential"
+        },
+        {
+          "target_node": "44942_59996",
+          "distance": 399.3,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "44935_60403",
+      "name": "Junction 44935_60403",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99752527982751,
+          7.9232723948146
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44914_60403",
+          "distance": 106.5,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "44937_60043",
+      "name": "Junction 44937_60043",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99760711548535,
+          7.906995447866689
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44950_60121",
+          "distance": 392.0,
+          "road_name": "Potgul Mawatha"
+        },
+        {
+          "target_node": "44933_59966",
+          "distance": 392.0,
+          "road_name": "Potgul Mawatha"
+        }
+      ]
+    },
+    {
+      "node_id": "44940_60347",
+      "name": "Junction 44940_60347",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99775064673808,
+          7.920740310914104
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44959_60348",
+          "distance": 97.8,
+          "road_name": "residential"
+        },
+        {
+          "target_node": "44929_60318",
+          "distance": 168.7,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "44941_59671",
+      "name": "Junction 44941_59671",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.9977793600892,
+          7.890175875550581
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44920_59729",
+          "distance": 327.2,
+          "road_name": "unclassified"
+        },
+        {
+          "target_node": "44959_59610",
+          "distance": 327.2,
+          "road_name": "unclassified"
+        }
+      ]
+    },
+    {
+      "node_id": "44941_59946",
+      "name": "Junction 44941_59946",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99778611965219,
+          7.902609627936149
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44933_59960",
+          "distance": 78.9,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "44941_60318",
+      "name": "Junction 44941_60318",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99779528097382,
+          7.919429092113602
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44914_60361",
+          "distance": 315.2,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "44942_59996",
+      "name": "Junction 44942_59996",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99783269737837,
+          7.90487028485616
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44935_59917",
+          "distance": 399.3,
+          "road_name": "residential"
+        },
+        {
+          "target_node": "44957_60070",
+          "distance": 399.3,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "44942_60338",
+      "name": "Junction 44942_60338",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99784112331196,
+          7.920333339411257
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44949_60349",
+          "distance": 79.7,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "44947_59773",
+      "name": "Junction 44947_59773",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99805394459875,
+          7.894787521099881
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44949_59842",
+          "distance": 353.0,
+          "road_name": "unclassified"
+        }
+      ]
+    },
+    {
+      "node_id": "44949_59842",
+      "name": "Junction 44949_59842",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.998146336214,
+          7.897907213460859
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44947_59773",
+          "distance": 353.0,
+          "road_name": "unclassified"
+        },
+        {
+          "target_node": "44966_59907",
+          "distance": 353.0,
+          "road_name": "unclassified"
+        }
+      ]
+    },
+    {
+      "node_id": "44949_60349",
+      "name": "Junction 44949_60349",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.9981588395527,
+          7.920830516678899
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44942_60338",
+          "distance": 79.7,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "44950_60121",
+      "name": "Junction 44950_60121",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99819856027372,
+          7.910521790793492
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44937_60043",
+          "distance": 392.0,
+          "road_name": "Potgul Mawatha"
+        }
+      ]
+    },
+    {
+      "node_id": "44952_60078",
+      "name": "Junction 44952_60078",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.9982881954721,
+          7.908577556144805
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44954_60069",
+          "distance": 46.9,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "44953_60365",
+      "name": "Junction 44953_60365",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99834063217119,
+          7.921553835575836
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44931_60358",
+          "distance": 132.6,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "44954_60069",
+      "name": "Junction 44954_60069",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99837866920201,
+          7.908170584378376
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44952_60078",
+          "distance": 46.9,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "44955_60262",
+      "name": "Junction 44955_60262",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99842878443549,
+          7.9168967861318125
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44995_60261",
+          "distance": 199.1,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "44955_60271",
+      "name": "Junction 44955_60271",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99842900687908,
+          7.917303708515732
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44916_60271",
+          "distance": 193.7,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "44955_60277",
+      "name": "Junction 44955_60277",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99842915518136,
+          7.917574990100598
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44994_60277",
+          "distance": 194.4,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "44955_60285",
+      "name": "Junction 44955_60285",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99842935292588,
+          7.917936698874926
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44914_60318",
+          "distance": 360.9,
+          "road_name": "School Lane"
+        },
+        {
+          "target_node": "44956_60213",
+          "distance": 360.9,
+          "road_name": "School Lane"
+        }
+      ]
+    },
+    {
+      "node_id": "44955_60295",
+      "name": "Junction 44955_60295",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99842960011966,
+          7.918388834834024
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44993_60283",
+          "distance": 227.2,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "44955_60302",
+      "name": "Junction 44955_60302",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99842977316396,
+          7.918705329999555
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44980_60304",
+          "distance": 127.4,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "44955_60316",
+      "name": "Junction 44955_60316",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99843011927399,
+          7.919338320316207
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44996_60316",
+          "distance": 206.5,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "44956_60213",
+      "name": "Junction 44956_60213",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99847292216528,
+          7.914681295043034
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44955_60285",
+          "distance": 360.9,
+          "road_name": "School Lane"
+        },
+        {
+          "target_node": "44968_60152",
+          "distance": 315.6,
+          "road_name": "School Lane"
+        }
+      ]
+    },
+    {
+      "node_id": "44956_60217",
+      "name": "Junction 44956_60217",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99847302101887,
+          7.9148621494555025
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44959_60213",
+          "distance": 23.3,
+          "road_name": "tertiary"
+        }
+      ]
+    },
+    {
+      "node_id": "44957_59780",
+      "name": "Junction 44957_59780",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.9985075815139,
+          7.895103771049298
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44980_59841",
+          "distance": 333.7,
+          "road_name": "residential"
+        },
+        {
+          "target_node": "44920_59729",
+          "distance": 333.7,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "44957_60070",
+      "name": "Junction 44957_60070",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99851473757886,
+          7.908215724145925
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44942_59996",
+          "distance": 399.3,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "44958_60116",
+      "name": "Junction 44958_60116",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99856122192978,
+          7.910295525799409
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44960_60180",
+          "distance": 356.9,
+          "road_name": "Potgul Mawatha"
+        },
+        {
+          "target_node": "44967_60053",
+          "distance": 346.3,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "44959_59610",
+      "name": "Junction 44959_59610",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99859408353412,
+          7.887417400766879
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44941_59671",
+          "distance": 327.2,
+          "road_name": "unclassified"
+        },
+        {
+          "target_node": "44989_59554",
+          "distance": 327.2,
+          "road_name": "unclassified"
+        }
+      ]
+    },
+    {
+      "node_id": "44959_60213",
+      "name": "Junction 44959_60213",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99860896797821,
+          7.914681221102232
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44956_60217",
+          "distance": 23.3,
+          "road_name": "tertiary"
+        }
+      ]
+    },
+    {
+      "node_id": "44959_60348",
+      "name": "Junction 44959_60348",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99861230757713,
+          7.920785056598698
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44940_60347",
+          "distance": 97.8,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "44960_60180",
+      "name": "Junction 44960_60180",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99865350047679,
+          7.91318914750156
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44923_60236",
+          "distance": 356.9,
+          "road_name": "Potgul Mawatha"
+        },
+        {
+          "target_node": "44958_60116",
+          "distance": 356.9,
+          "road_name": "Potgul Mawatha"
+        }
+      ]
+    },
+    {
+      "node_id": "44962_59987",
+      "name": "Junction 44962_59987",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99873942565142,
+          7.904462870460139
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44979_60009",
+          "distance": 166.8,
+          "road_name": "unclassified"
+        }
+      ]
+    },
+    {
+      "node_id": "44966_59907",
+      "name": "Junction 44966_59907",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99891883770414,
+          7.900845681638683
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44949_59842",
+          "distance": 353.0,
+          "road_name": "unclassified"
+        },
+        {
+          "target_node": "44997_59949",
+          "distance": 353.0,
+          "road_name": "unclassified"
+        },
+        {
+          "target_node": "45008_59901",
+          "distance": 221.2,
+          "road_name": "unclassified"
+        },
+        {
+          "target_node": "45008_59899",
+          "distance": 213.8,
+          "road_name": "Corridor link"
+        },
+        {
+          "target_node": "45020_59963",
+          "distance": 389.0,
+          "road_name": "Corridor link"
+        }
+      ]
+    },
+    {
+      "node_id": "44966_60401",
+      "name": "Junction 44966_60401",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99893106613766,
+          7.9231812038237655
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44989_60329",
+          "distance": 389.9,
+          "road_name": "2nd Canal Road"
+        }
+      ]
+    },
+    {
+      "node_id": "44967_60053",
+      "name": "Junction 44967_60053",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99896779588019,
+          7.907446846176969
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44958_60116",
+          "distance": 346.3,
+          "road_name": "residential"
+        },
+        {
+          "target_node": "44997_60008",
+          "distance": 346.3,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "44968_60152",
+      "name": "Junction 44968_60152",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99901559456379,
+          7.911922969133777
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44956_60213",
+          "distance": 315.6,
+          "road_name": "School Lane"
+        },
+        {
+          "target_node": "44980_60103",
+          "distance": 315.6,
+          "road_name": "School Lane"
+        }
+      ]
+    },
+    {
+      "node_id": "44972_60391",
+      "name": "Junction 44972_60391",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99920291514196,
+          7.922728919610123
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44914_60375",
+          "distance": 318.8,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "44979_60009",
+      "name": "Junction 44979_60009",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99951087841426,
+          7.905457150586257
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44962_59987",
+          "distance": 166.8,
+          "road_name": "unclassified"
+        }
+      ]
+    },
+    {
+      "node_id": "44980_59841",
+      "name": "Junction 44980_59841",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99955206136146,
+          7.897861236342132
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45008_59899",
+          "distance": 333.7,
+          "road_name": "residential"
+        },
+        {
+          "target_node": "44957_59780",
+          "distance": 333.7,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "44980_60103",
+      "name": "Junction 44980_60103",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99955855802881,
+          7.909707205694841
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44968_60152",
+          "distance": 315.6,
+          "road_name": "School Lane"
+        }
+      ]
+    },
+    {
+      "node_id": "44980_60304",
+      "name": "Junction 44980_60304",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99956354892399,
+          7.918795139458713
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44955_60302",
+          "distance": 127.4,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "44985_60120",
+      "name": "Junction 44985_60120",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99978572062122,
+          7.910475713277952
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45026_60121",
+          "distance": 254.2,
+          "road_name": "tertiary"
+        }
+      ]
+    },
+    {
+      "node_id": "44987_60068",
+      "name": "Junction 44987_60068",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99987512476143,
+          7.90812455598185
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44997_60009",
+          "distance": 306.1,
+          "road_name": "residential"
+        },
+        {
+          "target_node": "45027_60093",
+          "distance": 306.1,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "44989_59554",
+      "name": "Junction 44989_59554",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99995306446112,
+          7.8848846965290065
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44959_59610",
+          "distance": 327.2,
+          "road_name": "unclassified"
+        }
+      ]
+    },
+    {
+      "node_id": "44989_60329",
+      "name": "Junction 44989_60329",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          80.99997231266019,
+          7.919925256032845
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44966_60401",
+          "distance": 389.9,
+          "road_name": "2nd Canal Road"
+        },
+        {
+          "target_node": "45040_60351",
+          "distance": 389.9,
+          "road_name": "2nd Canal Road"
+        }
+      ]
+    },
+    {
+      "node_id": "44990_60214",
+      "name": "Junction 44990_60214",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00001479951595,
+          7.914725668048986
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44933_60224",
+          "distance": 303.4,
+          "road_name": "New Town Road"
+        },
+        {
+          "target_node": "44994_60214",
+          "distance": 17.3,
+          "road_name": "New Town Road"
+        },
+        {
+          "target_node": "44994_60215",
+          "distance": 17.3,
+          "road_name": "New Town Road"
+        }
+      ]
+    },
+    {
+      "node_id": "44991_60147",
+      "name": "Junction 44991_60147",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00005848107259,
+          7.9116963319392895
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44994_60210",
+          "distance": 315.4,
+          "road_name": "tertiary"
+        },
+        {
+          "target_node": "44997_60097",
+          "distance": 315.4,
+          "road_name": "tertiary"
+        }
+      ]
+    },
+    {
+      "node_id": "44992_60151",
+      "name": "Junction 44992_60151",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00010392887233,
+          7.911877161552038
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45026_60148",
+          "distance": 171.3,
+          "road_name": "tertiary"
+        }
+      ]
+    },
+    {
+      "node_id": "44993_60172",
+      "name": "Junction 44993_60172",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00014979982164,
+          7.912826622405955
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45043_60172",
+          "distance": 251.1,
+          "road_name": "tertiary"
+        }
+      ]
+    },
+    {
+      "node_id": "44993_60283",
+      "name": "Junction 44993_60283",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00015256350966,
+          7.917845331628584
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44955_60295",
+          "distance": 227.2,
+          "road_name": "residential"
+        },
+        {
+          "target_node": "44997_60238",
+          "distance": 227.2,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "44994_60210",
+      "name": "Junction 44994_60210",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00019609432974,
+          7.914544714388795
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44994_60213",
+          "distance": 17.3,
+          "road_name": "tertiary"
+        },
+        {
+          "target_node": "44995_60213",
+          "distance": 17.8,
+          "road_name": "tertiary"
+        },
+        {
+          "target_node": "44991_60147",
+          "distance": 315.4,
+          "road_name": "tertiary"
+        }
+      ]
+    },
+    {
+      "node_id": "44994_60213",
+      "name": "Junction 44994_60213",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00019616903178,
+          7.914680355182873
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44994_60210",
+          "distance": 17.3,
+          "road_name": "tertiary"
+        }
+      ]
+    },
+    {
+      "node_id": "44994_60214",
+      "name": "Junction 44994_60214",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00019619393275,
+          7.914725568780703
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44990_60214",
+          "distance": 17.3,
+          "road_name": "New Town Road"
+        }
+      ]
+    },
+    {
+      "node_id": "44994_60215",
+      "name": "Junction 44994_60215",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00019621883389,
+          7.914770782378434
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44990_60214",
+          "distance": 17.3,
+          "road_name": "New Town Road"
+        }
+      ]
+    },
+    {
+      "node_id": "44994_60277",
+      "name": "Junction 44994_60277",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00019776299027,
+          7.9175740252463465
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44955_60277",
+          "distance": 194.4,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "44995_60213",
+      "name": "Junction 44995_60213",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.0002415176307,
+          7.914680330353628
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44994_60210",
+          "distance": 17.8,
+          "road_name": "tertiary"
+        }
+      ]
+    },
+    {
+      "node_id": "44995_60217",
+      "name": "Junction 44995_60217",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00024161725524,
+          7.914861184743781
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45043_60239",
+          "distance": 335.7,
+          "road_name": "Independence Golden Jubilee Road (New Town Road)"
+        }
+      ]
+    },
+    {
+      "node_id": "44995_60261",
+      "name": "Junction 44995_60261",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00024271328044,
+          7.916850582931977
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44955_60262",
+          "distance": 199.1,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "44996_60316",
+      "name": "Junction 44996_60316",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00028943281959,
+          7.9193373055514
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45031_60322",
+          "distance": 206.5,
+          "road_name": "residential"
+        },
+        {
+          "target_node": "44955_60316",
+          "distance": 206.5,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "44997_59949",
+      "name": "Junction 44997_59949",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00032564219315,
+          7.902743887541241
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44966_59907",
+          "distance": 353.0,
+          "road_name": "unclassified"
+        }
+      ]
+    },
+    {
+      "node_id": "44997_60008",
+      "name": "Junction 44997_60008",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00032711018932,
+          7.905411491145474
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44967_60053",
+          "distance": 346.3,
+          "road_name": "residential"
+        },
+        {
+          "target_node": "45063_60023",
+          "distance": 346.3,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "44997_60009",
+      "name": "Junction 44997_60009",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00032713507501,
+          7.905456704762949
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44987_60068",
+          "distance": 306.1,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "44997_60097",
+      "name": "Junction 44997_60097",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00032932559142,
+          7.909435502717364
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44991_60147",
+          "distance": 315.4,
+          "road_name": "tertiary"
+        },
+        {
+          "target_node": "45048_60082",
+          "distance": 315.4,
+          "road_name": "tertiary"
+        }
+      ]
+    },
+    {
+      "node_id": "44997_60238",
+      "name": "Junction 44997_60238",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00033283776719,
+          7.915810620585905
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44993_60283",
+          "distance": 227.2,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "44998_60214",
+      "name": "Junction 44998_60214",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00037758834722,
+          7.914725469433578
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45042_60212",
+          "distance": 222.3,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45000_59961",
+      "name": "Junction 45000_59961",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00046198278869,
+          7.903286376575547
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45025_60008",
+          "distance": 333.7,
+          "road_name": "residential"
+        },
+        {
+          "target_node": "45008_59899",
+          "distance": 333.7,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45008_59899",
+      "name": "Junction 45008_59899",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00082321604944,
+          7.900482933195519
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45000_59961",
+          "distance": 333.7,
+          "road_name": "residential"
+        },
+        {
+          "target_node": "44980_59841",
+          "distance": 333.7,
+          "road_name": "residential"
+        },
+        {
+          "target_node": "45129_59877",
+          "distance": 614.9,
+          "road_name": "Corridor link"
+        },
+        {
+          "target_node": "44966_59907",
+          "distance": 213.8,
+          "road_name": "Corridor link"
+        }
+      ]
+    },
+    {
+      "node_id": "45008_59901",
+      "name": "Junction 45008_59901",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.0008232658975,
+          7.900573360448539
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44966_59907",
+          "distance": 221.2,
+          "road_name": "unclassified"
+        }
+      ]
+    },
+    {
+      "node_id": "45020_59963",
+      "name": "Junction 45020_59963",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00136897981604,
+          7.90337630642652
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45088_59980",
+          "distance": 357.3,
+          "road_name": "residential"
+        },
+        {
+          "target_node": "44966_59907",
+          "distance": 389.0,
+          "road_name": "Corridor link"
+        }
+      ]
+    },
+    {
+      "node_id": "45025_60008",
+      "name": "Junction 45025_60008",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00159684253988,
+          7.905410794477084
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45000_59961",
+          "distance": 333.7,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45026_60121",
+      "name": "Junction 45026_60121",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00164501931586,
+          7.910519907207678
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45026_60172",
+          "distance": 254.2,
+          "road_name": "tertiary"
+        },
+        {
+          "target_node": "44985_60120",
+          "distance": 254.2,
+          "road_name": "tertiary"
+        }
+      ]
+    },
+    {
+      "node_id": "45026_60148",
+      "name": "Junction 45026_60148",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00164569559716,
+          7.9117406744335765
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44992_60151",
+          "distance": 171.3,
+          "road_name": "tertiary"
+        }
+      ]
+    },
+    {
+      "node_id": "45026_60172",
+      "name": "Junction 45026_60172",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00164629682652,
+          7.912825800796641
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45026_60121",
+          "distance": 254.2,
+          "road_name": "tertiary"
+        }
+      ]
+    },
+    {
+      "node_id": "45027_60093",
+      "name": "Junction 45027_60093",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00168966610215,
+          7.90925390133583
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44987_60068",
+          "distance": 306.1,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45031_60322",
+      "name": "Junction 45031_60322",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00187680210136,
+          7.919607714224353
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44996_60316",
+          "distance": 206.5,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45038_60082",
+      "name": "Junction 45038_60082",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00218821800964,
+          7.908756276703366
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45043_60161",
+          "distance": 394.4,
+          "road_name": "tertiary"
+        },
+        {
+          "target_node": "45069_60010",
+          "distance": 394.4,
+          "road_name": "tertiary"
+        }
+      ]
+    },
+    {
+      "node_id": "45040_60351",
+      "name": "Junction 45040_60351",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.0022856735363,
+          7.920918682595864
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44989_60329",
+          "distance": 389.9,
+          "road_name": "2nd Canal Road"
+        },
+        {
+          "target_node": "45106_60356",
+          "distance": 389.9,
+          "road_name": "2nd Canal Road"
+        }
+      ]
+    },
+    {
+      "node_id": "45042_60207",
+      "name": "Junction 45042_60207",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00237275078656,
+          7.914407876273474
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45071_60207",
+          "distance": 145.2,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45042_60212",
+      "name": "Junction 45042_60212",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.0023728764746,
+          7.914633944229952
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44998_60214",
+          "distance": 222.3,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45042_60239",
+      "name": "Junction 45042_60239",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00237355525398,
+          7.915854711152606
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45043_60161",
+          "distance": 394.4,
+          "road_name": "tertiary"
+        }
+      ]
+    },
+    {
+      "node_id": "45043_60161",
+      "name": "Junction 45043_60161",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00241694296534,
+          7.912328025900713
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45042_60239",
+          "distance": 394.4,
+          "road_name": "tertiary"
+        },
+        {
+          "target_node": "45038_60082",
+          "distance": 394.4,
+          "road_name": "tertiary"
+        }
+      ]
+    },
+    {
+      "node_id": "45043_60168",
+      "name": "Junction 45043_60168",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00241711891648,
+          7.912644521069632
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45078_60162",
+          "distance": 178.4,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45043_60172",
+      "name": "Junction 45043_60172",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00241721946327,
+          7.9128253754497155
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44993_60172",
+          "distance": 251.1,
+          "road_name": "tertiary"
+        }
+      ]
+    },
+    {
+      "node_id": "45043_60239",
+      "name": "Junction 45043_60239",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.0024189039743,
+          7.915854686083075
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44995_60217",
+          "distance": 335.7,
+          "road_name": "Independence Golden Jubilee Road (New Town Road)"
+        },
+        {
+          "target_node": "45109_60244",
+          "distance": 335.7,
+          "road_name": "Independence Golden Jubilee Road (New Town Road)"
+        }
+      ]
+    },
+    {
+      "node_id": "45044_60129",
+      "name": "Junction 45044_60129",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00246148688633,
+          7.910881165723166
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45089_60128",
+          "distance": 240.5,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45048_60082",
+      "name": "Junction 45048_60082",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00264169745539,
+          7.908756026211046
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44997_60097",
+          "distance": 315.4,
+          "road_name": "tertiary"
+        }
+      ]
+    },
+    {
+      "node_id": "45050_60168",
+      "name": "Junction 45050_60168",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00273455749848,
+          7.9126443455170365
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45065_60185",
+          "distance": 134.9,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45063_60023",
+      "name": "Junction 45063_60023",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.0033204287325,
+          7.906088046935616
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "44997_60008",
+          "distance": 346.3,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45065_60185",
+      "name": "Junction 45065_60185",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00341521219498,
+          7.9134125995702895
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45050_60168",
+          "distance": 134.9,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45069_60010",
+      "name": "Junction 45069_60010",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00359218648182,
+          7.905500119130756
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45038_60082",
+          "distance": 394.4,
+          "road_name": "tertiary"
+        },
+        {
+          "target_node": "45110_59947",
+          "distance": 394.4,
+          "road_name": "tertiary"
+        }
+      ]
+    },
+    {
+      "node_id": "45071_60207",
+      "name": "Junction 45071_60207",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00368785902901,
+          7.9144071473911755
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45042_60207",
+          "distance": 145.2,
+          "road_name": "residential"
+        },
+        {
+          "target_node": "45094_60213",
+          "distance": 126.4,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45077_60372",
+      "name": "Junction 45077_60372",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00396412858855,
+          7.92186723650051
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45086_60434",
+          "distance": 320.5,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45078_60162",
+      "name": "Junction 45078_60162",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.0040041599004,
+          7.91237235935036
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45043_60168",
+          "distance": 178.4,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45078_60166",
+      "name": "Junction 45078_60166",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00400426113532,
+          7.912553213712426
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45086_60196",
+          "distance": 274.3,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45078_60184",
+      "name": "Junction 45078_60184",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00400471672198,
+          7.913367058322334
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45091_60208",
+          "distance": 137.5,
+          "road_name": "residential"
+        },
+        {
+          "target_node": "45080_60139",
+          "distance": 225.9,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45080_60123",
+      "name": "Junction 45080_60123",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00409386926856,
+          7.910608978773124
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45097_60093",
+          "distance": 245.5,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45080_60139",
+      "name": "Junction 45080_60139",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.0040942742875,
+          7.911332396268443
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45078_60184",
+          "distance": 225.9,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45083_60239",
+      "name": "Junction 45083_60239",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00423285266527,
+          7.915853679260792
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45094_60213",
+          "distance": 145.6,
+          "road_name": "tertiary"
+        }
+      ]
+    },
+    {
+      "node_id": "45086_60196",
+      "name": "Junction 45086_60196",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00436780848871,
+          7.913909419314695
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45078_60166",
+          "distance": 274.3,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45086_60434",
+      "name": "Junction 45086_60434",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00437384674474,
+          7.924670250057051
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45077_60372",
+          "distance": 320.5,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45087_60241",
+      "name": "Junction 45087_60241",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00441429825035,
+          7.915944005308399
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45088_60300",
+          "distance": 293.3,
+          "road_name": "tertiary"
+        }
+      ]
+    },
+    {
+      "node_id": "45087_60283",
+      "name": "Junction 45087_60283",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00441536369983,
+          7.917842975651534
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45134_60247",
+          "distance": 359.9,
+          "road_name": "Araliya Mawatha"
+        }
+      ]
+    },
+    {
+      "node_id": "45088_59980",
+      "name": "Junction 45088_59980",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00445303058831,
+          7.904143231905932
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45020_59963",
+          "distance": 357.3,
+          "road_name": "residential"
+        },
+        {
+          "target_node": "45153_60007",
+          "distance": 357.3,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45088_60300",
+      "name": "Junction 45088_60300",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00446114404338,
+          7.91861158115533
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45126_60337",
+          "distance": 293.3,
+          "road_name": "tertiary"
+        },
+        {
+          "target_node": "45087_60241",
+          "distance": 293.3,
+          "road_name": "tertiary"
+        }
+      ]
+    },
+    {
+      "node_id": "45088_60402",
+      "name": "Junction 45088_60402",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00446373342525,
+          7.923223365369402
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45136_60383",
+          "distance": 291.1,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45089_60128",
+      "name": "Junction 45089_60128",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.0045021293232,
+          7.910834819400522
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45135_60141",
+          "distance": 240.5,
+          "road_name": "residential"
+        },
+        {
+          "target_node": "45044_60129",
+          "distance": 240.5,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45090_60228",
+      "name": "Junction 45090_60228",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00455001449912,
+          7.915356152854732
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45124_60221",
+          "distance": 188.4,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45091_60208",
+      "name": "Junction 45091_60208",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00459485553719,
+          7.914451855883743
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45078_60184",
+          "distance": 137.5,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45091_60314",
+      "name": "Junction 45091_60314",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00459754660896,
+          7.9192444952695284
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45120_60279",
+          "distance": 261.8,
+          "road_name": "Samagi Mawatha"
+        }
+      ]
+    },
+    {
+      "node_id": "45094_60213",
+      "name": "Junction 45094_60213",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00473102818987,
+          7.914677847867661
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45133_60148",
+          "distance": 389.0,
+          "road_name": "tertiary"
+        },
+        {
+          "target_node": "45071_60207",
+          "distance": 126.4,
+          "road_name": "residential"
+        },
+        {
+          "target_node": "45083_60239",
+          "distance": 145.6,
+          "road_name": "tertiary"
+        }
+      ]
+    },
+    {
+      "node_id": "45097_60093",
+      "name": "Junction 45097_60093",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.0048640258272,
+          7.9092521412290795
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45135_60072",
+          "distance": 245.5,
+          "road_name": "residential"
+        },
+        {
+          "target_node": "45080_60123",
+          "distance": 245.5,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45097_60164",
+      "name": "Junction 45097_60164",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00486582903436,
+          7.912462306205374
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45111_60134",
+          "distance": 173.7,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45102_60268",
+      "name": "Junction 45102_60268",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00509521599082,
+          7.917164392026808
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45120_60253",
+          "distance": 150.3,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45102_60282",
+      "name": "Junction 45102_60282",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00509557220609,
+          7.917797382092591
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45134_60254",
+          "distance": 302.1,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45102_60358",
+      "name": "Junction 45102_60358",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00509750645884,
+          7.921233613542968
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45113_60426",
+          "distance": 354.1,
+          "road_name": "Janapada Mawatha"
+        }
+      ]
+    },
+    {
+      "node_id": "45106_60356",
+      "name": "Junction 45106_60356",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00527885270502,
+          7.921143084847684
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45040_60351",
+          "distance": 389.9,
+          "road_name": "2nd Canal Road"
+        },
+        {
+          "target_node": "45163_60306",
+          "distance": 389.9,
+          "road_name": "2nd Canal Road"
+        }
+      ]
+    },
+    {
+      "node_id": "45109_60244",
+      "name": "Junction 45109_60244",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00541204655396,
+          7.916079088489892
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45043_60239",
+          "distance": 335.7,
+          "road_name": "Independence Golden Jubilee Road (New Town Road)"
+        },
+        {
+          "target_node": "45155_60273",
+          "distance": 335.7,
+          "road_name": "Independence Golden Jubilee Road (New Town Road)"
+        }
+      ]
+    },
+    {
+      "node_id": "45110_59947",
+      "name": "Junction 45110_59947",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00544983469531,
+          7.902650626105542
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45069_60010",
+          "distance": 394.4,
+          "road_name": "tertiary"
+        },
+        {
+          "target_node": "45129_59877",
+          "distance": 394.4,
+          "road_name": "tertiary"
+        }
+      ]
+    },
+    {
+      "node_id": "45111_60134",
+      "name": "Junction 45111_60134",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.0054999417161,
+          7.911105543528288
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45097_60164",
+          "distance": 173.7,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45111_60330",
+      "name": "Junction 45111_60330",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00550493618492,
+          7.919967405016223
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45153_60282",
+          "distance": 343.4,
+          "road_name": "Jayamini Mawatha"
+        }
+      ]
+    },
+    {
+      "node_id": "45113_60426",
+      "name": "Junction 45113_60426",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00559808383012,
+          7.924307856349
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45102_60358",
+          "distance": 354.1,
+          "road_name": "Janapada Mawatha"
+        }
+      ]
+    },
+    {
+      "node_id": "45113_60445",
+      "name": "Junction 45113_60445",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00559856875661,
+          7.92516691396567
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45159_60459",
+          "distance": 334.6,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45120_60119",
+      "name": "Junction 45120_60119",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00590769277244,
+          7.9104271109831865
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45142_60120",
+          "distance": 110.4,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45120_60137",
+      "name": "Junction 45120_60137",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00590815196719,
+          7.911240955565156
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45126_60072",
+          "distance": 327.7,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45120_60253",
+      "name": "Junction 45120_60253",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.0059111123917,
+          7.916485730998617
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45102_60268",
+          "distance": 150.3,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45120_60279",
+      "name": "Junction 45120_60279",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00591177621286,
+          7.917661283932109
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45091_60314",
+          "distance": 261.8,
+          "road_name": "Samagi Mawatha"
+        }
+      ]
+    },
+    {
+      "node_id": "45121_60291",
+      "name": "Junction 45121_60291",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00595743159188,
+          7.9182038213405574
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45133_60295",
+          "distance": 64.9,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45124_60221",
+      "name": "Junction 45124_60221",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00609168999857,
+          7.9150387946933165
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45090_60228",
+          "distance": 188.4,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45124_60335",
+      "name": "Junction 45124_60335",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00609460305934,
+          7.920193141969653
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45154_60273",
+          "distance": 370.9,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45126_60072",
+      "name": "Junction 45126_60072",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00617858129316,
+          7.9083019195529864
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45120_60137",
+          "distance": 327.7,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45126_60337",
+      "name": "Junction 45126_60337",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00618535256821,
+          7.920283518122405
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45128_60340",
+          "distance": 17.2,
+          "road_name": "tertiary"
+        },
+        {
+          "target_node": "45088_60300",
+          "distance": 293.3,
+          "road_name": "tertiary"
+        }
+      ]
+    },
+    {
+      "node_id": "45128_60340",
+      "name": "Junction 45128_60340",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00627612769885,
+          7.9204191078198365
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45126_60337",
+          "distance": 17.2,
+          "road_name": "tertiary"
+        }
+      ]
+    },
+    {
+      "node_id": "45129_59877",
+      "name": "Junction 45129_59877",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00630964617282,
+          7.899485190851692
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45110_59947",
+          "distance": 394.4,
+          "road_name": "tertiary"
+        },
+        {
+          "target_node": "45155_59807",
+          "distance": 394.4,
+          "road_name": "tertiary"
+        },
+        {
+          "target_node": "45008_59899",
+          "distance": 614.9,
+          "road_name": "Corridor link"
+        }
+      ]
+    },
+    {
+      "node_id": "45130_60163",
+      "name": "Junction 45130_60163",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00636229865881,
+          7.912416254145143
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45149_60167",
+          "distance": 98.6,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45133_60148",
+      "name": "Junction 45133_60148",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00649795996539,
+          7.9117379739052085
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45136_60074",
+          "distance": 389.0,
+          "road_name": "tertiary"
+        },
+        {
+          "target_node": "45094_60213",
+          "distance": 389.0,
+          "road_name": "tertiary"
+        }
+      ]
+    },
+    {
+      "node_id": "45133_60295",
+      "name": "Junction 45133_60295",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00650172156872,
+          7.9183843696963185
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45121_60291",
+          "distance": 64.9,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45134_60247",
+      "name": "Junction 45134_60247",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00654584167795,
+          7.916214092723113
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45087_60283",
+          "distance": 359.9,
+          "road_name": "Araliya Mawatha"
+        },
+        {
+          "target_node": "45137_60189",
+          "distance": 305.0,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45134_60254",
+      "name": "Junction 45134_60254",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00654602086715,
+          7.9165305877398575
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45102_60282",
+          "distance": 302.1,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45135_60072",
+      "name": "Junction 45135_60072",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.0065867122322,
+          7.908301690245794
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45097_60093",
+          "distance": 245.5,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45135_60141",
+      "name": "Junction 45135_60141",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00658847736747,
+          7.911421427802744
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45089_60128",
+          "distance": 240.5,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45136_60074",
+      "name": "Junction 45136_60074",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00663211127669,
+          7.908392091924429
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45159_60004",
+          "distance": 389.0,
+          "road_name": "tertiary"
+        },
+        {
+          "target_node": "45133_60148",
+          "distance": 389.0,
+          "road_name": "tertiary"
+        }
+      ]
+    },
+    {
+      "node_id": "45136_60075",
+      "name": "Junction 45136_60075",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00663213685846,
+          7.908437305515202
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45181_60075",
+          "distance": 233.8,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45136_60383",
+      "name": "Junction 45136_60383",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00664002322847,
+          7.922363086809491
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45088_60402",
+          "distance": 291.1,
+          "road_name": "residential"
+        },
+        {
+          "target_node": "45137_60329",
+          "distance": 291.1,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45137_60048",
+      "name": "Junction 45137_60048",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00667679396608,
+          7.907216513025518
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45207_60051",
+          "distance": 377.7,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45137_60189",
+      "name": "Junction 45137_60189",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00668040262983,
+          7.913591628695362
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45134_60247",
+          "distance": 305.0,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45137_60329",
+      "name": "Junction 45137_60329",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.0066839886694,
+          7.9199215288515985
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45136_60383",
+          "distance": 291.1,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45142_60120",
+      "name": "Junction 45142_60120",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00690537690211,
+          7.910471763833305
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45120_60119",
+          "distance": 110.4,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45143_60124",
+      "name": "Junction 45143_60124",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00695082751358,
+          7.910652592628887
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45185_60103",
+          "distance": 234.0,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45144_60123",
+      "name": "Junction 45144_60123",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00699615002186,
+          7.91060735349383
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45180_60146",
+          "distance": 217.7,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45146_59575",
+      "name": "Junction 45146_59575",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00707281909222,
+          7.885830243358666
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45157_59500",
+          "distance": 388.1,
+          "road_name": "residential"
+        },
+        {
+          "target_node": "45149_59651",
+          "distance": 388.1,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45148_60246",
+      "name": "Junction 45148_60246",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00718069844264,
+          7.916168521365104
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45216_60221",
+          "distance": 386.9,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45149_59651",
+      "name": "Junction 45149_59651",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00721079916755,
+          7.889266403074809
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45146_59575",
+          "distance": 388.1,
+          "road_name": "residential"
+        },
+        {
+          "target_node": "45151_59728",
+          "distance": 388.1,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45149_60167",
+      "name": "Junction 45149_60167",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00722401957195,
+          7.912596623274785
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45130_60163",
+          "distance": 98.6,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45151_59728",
+      "name": "Junction 45151_59728",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00730346178759,
+          7.892747801268392
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45149_59651",
+          "distance": 388.1,
+          "road_name": "residential"
+        },
+        {
+          "target_node": "45159_59804",
+          "distance": 388.1,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45153_60007",
+      "name": "Junction 45153_60007",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00740130614578,
+          7.905362346975773
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45088_59980",
+          "distance": 357.3,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45153_60282",
+      "name": "Junction 45153_60282",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00740836713551,
+          7.9177960818598745
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45111_60330",
+          "distance": 343.4,
+          "road_name": "Jayamini Mawatha"
+        }
+      ]
+    },
+    {
+      "node_id": "45154_60273",
+      "name": "Junction 45154_60273",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00745348473909,
+          7.917389134122993
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45124_60335",
+          "distance": 370.9,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45154_60298",
+      "name": "Junction 45154_60298",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.0074541273046,
+          7.9185194733088125
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45223_60293",
+          "distance": 388.0,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45155_59807",
+      "name": "Junction 45155_59807",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00748687121418,
+          7.896319574936281
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45129_59877",
+          "distance": 394.4,
+          "road_name": "tertiary"
+        },
+        {
+          "target_node": "45202_59852",
+          "distance": 394.4,
+          "road_name": "tertiary"
+        }
+      ]
+    },
+    {
+      "node_id": "45155_60273",
+      "name": "Junction 45155_60273",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.0074988336107,
+          7.917389108496473
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45109_60244",
+          "distance": 335.7,
+          "road_name": "Independence Golden Jubilee Road (New Town Road)"
+        },
+        {
+          "target_node": "45216_60288",
+          "distance": 335.7,
+          "road_name": "Independence Golden Jubilee Road (New Town Road)"
+        }
+      ]
+    },
+    {
+      "node_id": "45156_60189",
+      "name": "Junction 45156_60189",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00754202332506,
+          7.913591142776845
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45159_60237",
+          "distance": 241.2,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45157_59500",
+      "name": "Junction 45157_59500",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00756969849492,
+          7.8824389397540235
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45197_59475",
+          "distance": 388.1,
+          "road_name": "residential"
+        },
+        {
+          "target_node": "45146_59575",
+          "distance": 388.1,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45159_59804",
+      "name": "Junction 45159_59804",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00766818053272,
+          7.8961838318161535
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45151_59728",
+          "distance": 388.1,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45159_60004",
+      "name": "Junction 45159_60004",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00767331443522,
+          7.905226552626475
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45136_60074",
+          "distance": 389.0,
+          "road_name": "tertiary"
+        }
+      ]
+    },
+    {
+      "node_id": "45159_60237",
+      "name": "Junction 45159_60237",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00767930307782,
+          7.915761317432578
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45156_60189",
+          "distance": 241.2,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45159_60459",
+      "name": "Junction 45159_60459",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00768501665105,
+          7.925798727877423
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45113_60445",
+          "distance": 334.6,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45163_60306",
+      "name": "Junction 45163_60306",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00786247425307,
+          7.918880950975188
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45106_60356",
+          "distance": 389.9,
+          "road_name": "2nd Canal Road"
+        },
+        {
+          "target_node": "45227_60344",
+          "distance": 389.9,
+          "road_name": "2nd Canal Road"
+        }
+      ]
+    },
+    {
+      "node_id": "45171_59983",
+      "name": "Junction 45171_59983",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00821694434097,
+          7.90427675950264
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45194_59914",
+          "distance": 394.4,
+          "road_name": "tertiary"
+        },
+        {
+          "target_node": "45206_60010",
+          "distance": 394.4,
+          "road_name": "tertiary"
+        }
+      ]
+    },
+    {
+      "node_id": "45174_60273",
+      "name": "Junction 45174_60273",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00836046214253,
+          7.917388620656106
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45174_60294",
+          "distance": 104.1,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45174_60294",
+      "name": "Junction 45174_60294",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00836100396775,
+          7.918338105513969
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45174_60273",
+          "distance": 104.1,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45177_60193",
+      "name": "Junction 45177_60193",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00849444407979,
+          7.913771457932915
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45193_60167",
+          "distance": 154.5,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45180_60146",
+      "name": "Junction 45180_60146",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.0086292762623,
+          7.911646342712025
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45144_60123",
+          "distance": 217.7,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45181_60075",
+      "name": "Junction 45181_60075",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00867279202976,
+          7.908436152755779
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45136_60075",
+          "distance": 233.8,
+          "road_name": "residential"
+        },
+        {
+          "target_node": "45223_60080",
+          "distance": 233.8,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45185_60103",
+      "name": "Junction 45185_60103",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00885490671239,
+          7.90970203010402
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45225_60080",
+          "distance": 234.0,
+          "road_name": "residential"
+        },
+        {
+          "target_node": "45143_60124",
+          "distance": 234.0,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45193_60167",
+      "name": "Junction 45193_60167",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00921934676184,
+          7.912595492822695
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45177_60193",
+          "distance": 154.5,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45194_59914",
+      "name": "Junction 45194_59914",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00925815176475,
+          7.9011564298920485
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45202_59852",
+          "distance": 394.4,
+          "road_name": "tertiary"
+        },
+        {
+          "target_node": "45171_59983",
+          "distance": 394.4,
+          "road_name": "tertiary"
+        }
+      ]
+    },
+    {
+      "node_id": "45195_59862",
+      "name": "Junction 45195_59862",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00930215493491,
+          7.898805296908389
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45258_59831",
+          "distance": 394.4,
+          "road_name": "tertiary"
+        }
+      ]
+    },
+    {
+      "node_id": "45195_60298",
+      "name": "Junction 45195_60298",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00931343598403,
+          7.918518418427261
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45202_60274",
+          "distance": 124.3,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45197_59475",
+      "name": "Junction 45197_59475",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00938285587272,
+          7.881307573880422
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45268_59505",
+          "distance": 388.1,
+          "road_name": "residential"
+        },
+        {
+          "target_node": "45157_59500",
+          "distance": 388.1,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45198_60133",
+      "name": "Junction 45198_60133",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00944520788732,
+          7.911058102237161
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45228_60087",
+          "distance": 384.4,
+          "road_name": "4th Canal Road"
+        },
+        {
+          "target_node": "45218_60174",
+          "distance": 384.4,
+          "road_name": "4th Canal Road"
+        }
+      ]
+    },
+    {
+      "node_id": "45202_59852",
+      "name": "Junction 45202_59852",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00961932403864,
+          7.898352980411988
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45155_59807",
+          "distance": 394.4,
+          "road_name": "tertiary"
+        },
+        {
+          "target_node": "45194_59914",
+          "distance": 394.4,
+          "road_name": "tertiary"
+        }
+      ]
+    },
+    {
+      "node_id": "45202_60274",
+      "name": "Junction 45202_60274",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00963025634329,
+          7.917433112051574
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45195_60298",
+          "distance": 124.3,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45204_60276",
+      "name": "Junction 45204_60276",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00972100597808,
+          7.917523487442155
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45218_60219",
+          "distance": 347.9,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45206_60010",
+      "name": "Junction 45206_60010",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00980480424838,
+          7.905496625098552
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45171_59983",
+          "distance": 394.4,
+          "road_name": "tertiary"
+        },
+        {
+          "target_node": "45264_59970",
+          "distance": 394.4,
+          "road_name": "tertiary"
+        }
+      ]
+    },
+    {
+      "node_id": "45207_60051",
+      "name": "Junction 45207_60051",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.00985121476457,
+          7.907350356220496
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45137_60048",
+          "distance": 377.7,
+          "road_name": "residential"
+        },
+        {
+          "target_node": "45252_60013",
+          "distance": 308.5,
+          "road_name": "residential"
+        },
+        {
+          "target_node": "45213_60070",
+          "distance": 107.4,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45213_60070",
+      "name": "Junction 45213_60070",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.01012379460013,
+          7.908209259052504
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45207_60051",
+          "distance": 107.4,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45213_60264",
+      "name": "Junction 45213_60264",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.01012883397864,
+          7.916980691681972
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45231_60270",
+          "distance": 94.4,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45216_60221",
+      "name": "Junction 45216_60221",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.01026376232205,
+          7.915036430735698
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45148_60246",
+          "distance": 386.9,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45216_60288",
+      "name": "Junction 45216_60288",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.0102655046175,
+          7.9180657393382035
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45155_60273",
+          "distance": 335.7,
+          "road_name": "Independence Golden Jubilee Road (New Town Road)"
+        },
+        {
+          "target_node": "45273_60317",
+          "distance": 335.7,
+          "road_name": "Independence Golden Jubilee Road (New Town Road)"
+        }
+      ]
+    },
+    {
+      "node_id": "45218_60174",
+      "name": "Junction 45218_60174",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.01035323727095,
+          7.91291134125578
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45198_60133",
+          "distance": 384.4,
+          "road_name": "4th Canal Road"
+        },
+        {
+          "target_node": "45270_60219",
+          "distance": 384.4,
+          "road_name": "4th Canal Road"
+        }
+      ]
+    },
+    {
+      "node_id": "45218_60219",
+      "name": "Junction 45218_60219",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.01035440751414,
+          7.914945951753489
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45204_60276",
+          "distance": 347.9,
+          "road_name": "residential"
+        },
+        {
+          "target_node": "45262_60198",
+          "distance": 347.9,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45219_60290",
+      "name": "Junction 45219_60290",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.01040160347507,
+          7.9181560886351035
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45222_60278",
+          "distance": 60.1,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45222_60278",
+      "name": "Junction 45222_60278",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.01053733784875,
+          7.917613448082664
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45219_60290",
+          "distance": 60.1,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45223_60080",
+      "name": "Junction 45223_60080",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.01057753330419,
+          7.908661135739464
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45181_60075",
+          "distance": 233.8,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45223_60293",
+      "name": "Junction 45223_60293",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.01058307739126,
+          7.9182916254773525
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45154_60298",
+          "distance": 388.0,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45225_60080",
+      "name": "Junction 45225_60080",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.01066822911899,
+          7.90866108385924
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45185_60103",
+          "distance": 234.0,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45227_60344",
+      "name": "Junction 45227_60344",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.01076580272961,
+          7.920597412787885
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45163_60306",
+          "distance": 389.9,
+          "road_name": "2nd Canal Road"
+        },
+        {
+          "target_node": "45270_60406",
+          "distance": 389.9,
+          "road_name": "2nd Canal Road"
+        }
+      ]
+    },
+    {
+      "node_id": "45228_60087",
+      "name": "Junction 45228_60087",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.01080445510229,
+          7.908977501035268
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45271_60033",
+          "distance": 384.4,
+          "road_name": "4th Canal Road"
+        },
+        {
+          "target_node": "45198_60133",
+          "distance": 384.4,
+          "road_name": "4th Canal Road"
+        }
+      ]
+    },
+    {
+      "node_id": "45228_60245",
+      "name": "Junction 45228_60245",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.0108085710237,
+          7.916121244795476
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45246_60276",
+          "distance": 200.5,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45231_60270",
+      "name": "Junction 45231_60270",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.01094526916447,
+          7.917251505786645
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45213_60264",
+          "distance": 94.4,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45246_60276",
+      "name": "Junction 45246_60276",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.01162565875717,
+          7.917522396514441
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45228_60245",
+          "distance": 200.5,
+          "road_name": "residential"
+        },
+        {
+          "target_node": "45253_60314",
+          "distance": 200.5,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45252_60013",
+      "name": "Junction 45252_60013",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.01189087049018,
+          7.905631071943722
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45207_60051",
+          "distance": 308.5,
+          "road_name": "residential"
+        },
+        {
+          "target_node": "45264_59969",
+          "distance": 308.5,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45253_60314",
+      "name": "Junction 45253_60314",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.011944096216,
+          7.9192403288122115
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45246_60276",
+          "distance": 200.5,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45258_59831",
+      "name": "Junction 45258_59831",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.01215819467956,
+          7.897402042528217
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45328_59826",
+          "distance": 394.4,
+          "road_name": "tertiary"
+        },
+        {
+          "target_node": "45195_59862",
+          "distance": 394.4,
+          "road_name": "tertiary"
+        }
+      ]
+    },
+    {
+      "node_id": "45262_60198",
+      "name": "Junction 45262_60198",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.01234919482738,
+          7.9139953212662055
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45218_60219",
+          "distance": 347.9,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45264_59969",
+      "name": "Junction 45264_59969",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.01243388850529,
+          7.903641361263291
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45252_60013",
+          "distance": 308.5,
+          "road_name": "residential"
+        },
+        {
+          "target_node": "45300_59968",
+          "distance": 180.1,
+          "road_name": "Corridor link"
+        }
+      ]
+    },
+    {
+      "node_id": "45264_59970",
+      "name": "Junction 45264_59970",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.0124339147029,
+          7.903686574845208
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45206_60010",
+          "distance": 394.4,
+          "road_name": "tertiary"
+        },
+        {
+          "target_node": "45312_59953",
+          "distance": 394.4,
+          "road_name": "tertiary"
+        }
+      ]
+    },
+    {
+      "node_id": "45268_59505",
+      "name": "Junction 45268_59505",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.01260312975741,
+          7.8826621444655744
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45339_59518",
+          "distance": 388.1,
+          "road_name": "residential"
+        },
+        {
+          "target_node": "45197_59475",
+          "distance": 388.1,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45270_60219",
+      "name": "Junction 45270_60219",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.01271253424684,
+          7.914944596657783
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45218_60174",
+          "distance": 384.4,
+          "road_name": "4th Canal Road"
+        },
+        {
+          "target_node": "45290_60284",
+          "distance": 384.4,
+          "road_name": "4th Canal Road"
+        }
+      ]
+    },
+    {
+      "node_id": "45270_60406",
+      "name": "Junction 45270_60406",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.01271744866814,
+          7.923399530022998
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45227_60344",
+          "distance": 389.9,
+          "road_name": "2nd Canal Road"
+        },
+        {
+          "target_node": "45316_60414",
+          "distance": 389.9,
+          "road_name": "2nd Canal Road"
+        }
+      ]
+    },
+    {
+      "node_id": "45271_60033",
+      "name": "Junction 45271_60033",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.01275299914478,
+          7.906534847278432
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45300_59968",
+          "distance": 384.4,
+          "road_name": "4th Canal Road"
+        },
+        {
+          "target_node": "45228_60087",
+          "distance": 384.4,
+          "road_name": "4th Canal Road"
+        }
+      ]
+    },
+    {
+      "node_id": "45273_60317",
+      "name": "Junction 45273_60317",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.01285115625748,
+          7.919375446101674
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45216_60288",
+          "distance": 335.7,
+          "road_name": "Independence Golden Jubilee Road (New Town Road)"
+        },
+        {
+          "target_node": "45336_60339",
+          "distance": 335.7,
+          "road_name": "Independence Golden Jubilee Road (New Town Road)"
+        }
+      ]
+    },
+    {
+      "node_id": "45290_60284",
+      "name": "Junction 45290_60284",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.01362121998942,
+          7.917882952692279
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45270_60219",
+          "distance": 384.4,
+          "road_name": "4th Canal Road"
+        },
+        {
+          "target_node": "45340_60334",
+          "distance": 384.4,
+          "road_name": "4th Canal Road"
+        }
+      ]
+    },
+    {
+      "node_id": "45300_59968",
+      "name": "Junction 45300_59968",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.01406636674766,
+          7.90359520416881
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45271_60033",
+          "distance": 384.4,
+          "road_name": "4th Canal Road"
+        },
+        {
+          "target_node": "45312_59953",
+          "distance": 96.0,
+          "road_name": "Corridor link"
+        },
+        {
+          "target_node": "45264_59969",
+          "distance": 180.1,
+          "road_name": "Corridor link"
+        }
+      ]
+    },
+    {
+      "node_id": "45312_59953",
+      "name": "Junction 45312_59953",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.01461013835316,
+          7.902916684615027
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45264_59970",
+          "distance": 394.4,
+          "road_name": "tertiary"
+        },
+        {
+          "target_node": "45331_59885",
+          "distance": 394.4,
+          "road_name": "tertiary"
+        },
+        {
+          "target_node": "45300_59968",
+          "distance": 96.0,
+          "road_name": "Corridor link"
+        }
+      ]
+    },
+    {
+      "node_id": "45316_60414",
+      "name": "Junction 45316_60414",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.01480373822685,
+          7.923760027116114
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45270_60406",
+          "distance": 389.9,
+          "road_name": "2nd Canal Road"
+        },
+        {
+          "target_node": "45341_60341",
+          "distance": 389.9,
+          "road_name": "2nd Canal Road"
+        }
+      ]
+    },
+    {
+      "node_id": "45328_59826",
+      "name": "Junction 45328_59826",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.01533232898431,
+          7.8971741376607225
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45331_59885",
+          "distance": 394.4,
+          "road_name": "tertiary"
+        },
+        {
+          "target_node": "45258_59831",
+          "distance": 394.4,
+          "road_name": "tertiary"
+        }
+      ]
+    },
+    {
+      "node_id": "45331_59885",
+      "name": "Junction 45331_59885",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.01546993301147,
+          7.899841659788141
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45312_59953",
+          "distance": 394.4,
+          "road_name": "tertiary"
+        },
+        {
+          "target_node": "45328_59826",
+          "distance": 394.4,
+          "road_name": "tertiary"
+        }
+      ]
+    },
+    {
+      "node_id": "45336_60339",
+      "name": "Junction 45336_60339",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.01570873282374,
+          7.920368482416875
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45273_60317",
+          "distance": 335.7,
+          "road_name": "Independence Golden Jubilee Road (New Town Road)"
+        }
+      ]
+    },
+    {
+      "node_id": "45339_59518",
+      "name": "Junction 45339_59518",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.01582297349618,
+          7.883248058146342
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45268_59505",
+          "distance": 388.1,
+          "road_name": "residential"
+        }
+      ]
+    },
+    {
+      "node_id": "45340_60334",
+      "name": "Junction 45340_60334",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.01588999635128,
+          7.920142308580447
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45290_60284",
+          "distance": 384.4,
+          "road_name": "4th Canal Road"
+        }
+      ]
+    },
+    {
+      "node_id": "45341_60341",
+      "name": "Junction 45341_60341",
+      "coordinates": {
+        "type": "Point",
+        "coordinates": [
+          81.01593553194324,
+          7.920458776766675
+        ]
+      },
+      "edges": [
+        {
+          "target_node": "45316_60414",
+          "distance": 389.9,
+          "road_name": "2nd Canal Road"
+        }
+      ]
+    }
+  ]
+}
